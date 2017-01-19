@@ -1,0 +1,8 @@
+.feed-reader {
+    border: 1px solid #2B303A;
+    background-color: #FAC9B8;
+    color: #2B303A;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #2B303A;
+}
