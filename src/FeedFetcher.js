@@ -13,7 +13,7 @@ class FeedFetcher extends Component {
   }
   onClick () {
     //var url = 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://www.digg.com/rss/index.xml';
-    var url = 'http://feeds.bbci.co.uk/news/technology/rss.xml?edition=uk';
+    var url = 'https://feeds.bbci.co.uk/news/technology/rss.xml?edition=uk';
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
